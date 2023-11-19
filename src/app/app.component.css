@@ -1,0 +1,14 @@
+.mat-grid-tile {
+    overflow-y: auto;
+    max-height: 100%; 
+    /* margin-top: 10% !important; */
+    padding: 0 !important;
+  }
+  
+  /* Optionally, you can remove spacing between tiles as well */
+  .mat-grid-list {
+    height: 100%;
+    /* margin-top: 10%; */
+    overflow-y: auto;
+    border: none; /* Remove the border that contributes to spacing */
+  }

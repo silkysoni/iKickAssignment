@@ -1,0 +1,189 @@
+<!-- <p>mobile works!</p> -->
+<div class="main">
+    <div><h2 class="heading">iKick</h2></div>
+    <div>
+        <span class="icons"><img src="../../../assets/ant-design_message-outlined.png" alt="" class="topIcons"></span>
+        <span class="icons"><img src="../../../assets/material-symbols_bookmark-outline.png" alt="" class="topIcons"></span>
+        <span class="icons" ><img src="../../../assets/mdi_bell-notification-outline.png" alt="" class="topIcons"></span>
+    </div>
+</div>
+<div>
+    <form action="">
+        <input type="text" placeholder="Search" class="searchBar">
+    </form>
+</div>
+<div class="div3">
+    <span><h2 class="heading2">Categories</h2></span>
+    <span class="seeAll">See All ></span>
+</div>
+<div class="main">
+    <div class="logo">
+        <span class="features "><img src="../../../assets/star 2.png" alt="" class="imgs"></span><br>
+            <span class="text">Featured</span>
+    </div>
+    <div class="logo">
+        <span class="features "><img src="../../../assets/dance (1) 1.png" alt="" class="imgs"></span><br>
+            <span class="text">Dancer</span>
+    </div>
+    <div class="logo">
+        <span class="features "><img src="../../../assets/microphone (1) 1.png" alt="" class="imgs"></span><br>
+            <span class="text">Musician</span>
+    </div>
+    <div class="logo">
+        <span class="features "><img src="../../../assets/video 1.png" alt="" class="imgs"></span><br>
+            <span class="text">Movie Star</span>
+    </div>
+    <div class="logo">
+        <span class="features "><img src="../../../assets/tv (1) 1.png" alt="" class="imgs"></span><br>
+            <span class="text">TV Star</span>
+    </div>
+    
+</div>
+<div class="div3">
+    <span><h2 class="heading2">Featured Celebrities</h2></span>
+    <span class="seeAll">See All ></span>
+</div>
+<div class="div4">
+    <span class="img2"><img src="../../../assets/Ellipse 908.png" alt="">Shahid </span>
+    <span class="img2"><img src="../../../assets/Ellipse 908.png" alt=""> Shahrukh</span>
+    <span class="img2"><img src="../../../assets/Ellipse 908.png" alt=""> Shahrukh </span>
+</div>
+
+<div class="bids">
+
+    <div class="cards">
+        <span class="div3">
+            <h2 class="heading">Active Listing</h2>
+            <p class="seeAll">See all ></p>
+        </span>
+        <mat-grid-list cols="2" class="cardlist" rowHeight="285px">
+            <mat-grid-tile *ngFor="let card of card1">
+                
+
+               <div class="cards2">
+
+               
+                <mat-card>
+                    <img mat-card-image src="../../../assets/Rectangle 22217.png" alt="Photo of a Shiba Inu">
+                    <mat-card-actions class="badge2">
+                        <div class="btnDiv">
+                            <button class="btns"><i class="fa-regular fa-heart icon"></i><br>
+                                45</button>
+                            <button class="btns"><i class="fa-regular fa-eye"></i><br> 17K</button>
+                            <button class="btns"><i class="fa-regular fa-share-from-square icon"></i></button>
+                        </div>
+ 
+                    </mat-card-actions>
+                    <div class="badge2">
+                        <button class="badge">0d: 5h: 30m: 25s</button>
+                        <span class="smallText2">
+                            30 bids
+                        </span>
+                    </div>
+                    <mat-card-header>
+                        <div class="badge3">
+                            <mat-card-title class="headings">Product Name</mat-card-title>
+                            <mat-card-subtitle class="subheading">Current Bid</mat-card-subtitle>
+                            <mat-card-subtitle class="currentBid">$ 875.00</mat-card-subtitle>
+                        </div>
+                    </mat-card-header>
+                    <mat-card-footer>
+                        <!-- <button class="hammerbtn"></button> -->
+                        <button class="last">
+                            <span class="hammer">
+                                <i class="fa-solid fa-hammer"></i>
+                            </span>
+                            Raise Bid
+                        </button>
+                    </mat-card-footer>
+                </mat-card>
+            </div> 
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+
+    <div class="cards">
+        <span class="div3">
+            <h2 class="heading">Upcoming Bids</h2>
+            <p class="seeAll">See all ></p>
+        </span>
+        <mat-grid-list cols="2" class="cardlist" rowHeight="285px">
+            <mat-grid-tile *ngFor="let card of card1">
+                
+
+               <div class="cards2">
+
+               
+                <mat-card>
+                    <img mat-card-image src="../../../assets/Rectangle 22217.png" alt="Photo of a Shiba Inu">
+                    <mat-card-actions class="badge2">
+                        <div class="btnDiv">
+                            <button class="btns"><i class="fa-regular fa-heart icon"></i><br>
+                                45</button>
+                            <button class="btns"><i class="fa-regular fa-eye"></i><br> 17K</button>
+                            <button class="btns"><i class="fa-regular fa-share-from-square icon"></i></button>
+                        </div>
+ 
+                    </mat-card-actions>
+                    <div class="badge2">
+                        <button class="badge">0d: 5h: 30m: 25s</button>
+                        <span class="smallText2">
+                            30 bids
+                        </span>
+                    </div>
+                    <mat-card-header>
+                        <div class="badge3">
+                            <mat-card-title class="headings">Product Name</mat-card-title>
+                            <mat-card-subtitle class="subheading">Current Bid</mat-card-subtitle>
+                            <mat-card-subtitle class="currentBid">$ 875.00</mat-card-subtitle>
+                        </div>
+                    </mat-card-header>
+                    <mat-card-footer>
+                        <!-- <button class="hammerbtn"></button> -->
+                        <button class="last2">
+                            Notify
+                        </button>
+                    </mat-card-footer>
+                </mat-card>
+            </div> 
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+    <div>
+        <mat-list class="lists ">
+        
+            <div class="icons">
+                <img src="../../../assets/home.png" alt="" class="lasticons"><br>
+                <!-- <mat-list-item >Home</mat-list-item> -->
+                <li>Home </li>
+
+            </div>
+            
+            <div class="icons">
+                <img src="../../../assets/pepicons-pencil_hammer-sledge.png" alt="" class="lasticons">
+                <!-- <mat-list-item>Bid</mat-list-item> -->
+                <li>Bid </li>
+            </div>
+
+            <div class="icons">
+                <img src="../../../assets/basil_add-outline.png" alt="" class="lasticons">
+                <!-- <mat-list-item>Create</mat-list-item> -->
+                <li>Create</li>
+            </div>
+            
+            <div class="icons">
+                <img src="../../../assets/iconoir_wallet.png" alt="" class="lasticons">
+                <!-- <mat-list-item>Wallet</mat-list-item> -->
+               <li> Wallet </li>
+            </div>
+            
+            <div class="icons">
+                <img src="../../../assets/user (1).png" alt="" class="lasticons">
+                <!-- <mat-list-item>Profile</mat-list-item> -->
+                <li>Profile </li>
+            </div>
+            
+        </mat-list>
+    </div>
+
+</div>

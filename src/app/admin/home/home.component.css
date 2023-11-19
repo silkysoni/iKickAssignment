@@ -1,0 +1,108 @@
+/* .col {
+    height: 100% !important;
+}
+
+.container {
+    display: flex;
+    align-items: normal;
+}
+.body{
+    overflow-y: auto;
+    max-height: 100%; 
+  
+    padding: 0 !important;
+}
+
+
+.mat-grid-list {
+    overflow-y: hidden; 
+  }
+  
+ 
+.column-content {
+    overflow-y: auto; 
+    height: 100%;
+
+  } */
+  /* th{
+    height: 1px;
+  }
+  ::ng-deep .mat-header-cell {
+    height: 0; 
+  } */
+.searchbox {
+    width: 700px;
+    height: 70px;
+    border-radius: 100px;
+    padding-top: 0%;
+}
+#searchBar {
+    /* width: 750px !important; */
+    width: 700px;
+    height: 48px;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(89, 97, 249, 0.10);
+    outline: none;
+    border: none;
+    padding-left: 16px;
+    margin:0 0 0 70px;
+    color: var(--N200, #9CA1A7);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+.heading{
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    }
+.rightHeading{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+::ng-deep .matColumnDef {
+    min-width: 100px; /* Adjust the minimum width as needed */
+    max-width: 300px; /* Adjust the maximum width as needed */
+  }
+  .para{
+    color: var(--N200, #9CA1A7);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+  }
+  /* ::ng-deep .mat-cell {
+    vertical-align: top !important; 
+  } */
+ 
+  .mat-mdc-cell {
+    vertical-align: top !important;
+  } 
+
+  th.mat-header-cell{
+    height: 5px !important;
+  }
+  .mob{
+    /* visibility: visible; */
+    display: none;
+}
+  @media (max-width: 390px) {
+        .container {
+          display: none !important;
+        }
+        .mob{
+            display: block;
+        }
+  }
+  /* @media (max-width: 400px){
+    .container{
+        display: none;
+    }
+
+} */

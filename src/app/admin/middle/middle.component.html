@@ -1,0 +1,111 @@
+<div class="mainContainer">
+
+
+    <!-- <div class="searchbox">
+        <form class="example-form">
+            
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="searchBar" placeholder="Search here" />
+        </form>
+    </div> -->
+    <div class="cards">
+        <span class="seeAll">
+            <h2 class="heading2">Active Listing</h2>
+            <p class="para">See all ></p>
+        </span>
+        <mat-grid-list cols="4" class="cardlist" rowHeight="300px">
+            <mat-grid-tile *ngFor="let card of card1">
+                
+
+               <div class="cards2">
+
+               
+                <mat-card>
+                    <img mat-card-image src="../../../assets/Rectangle 22217.png" alt="Photo of a Shiba Inu">
+                    <mat-card-actions class="badge2">
+                        <div class="btnDiv">
+                            <button class="btns"><i class="fa-regular fa-heart icon"></i></button>
+                            <button class="btns"><i class="fa-regular fa-share-from-square icon"></i></button>
+                        </div>
+                        <div class="smallText">
+                            <!-- <p>45likes . 454views </p>   -->
+                            <span class="spans">45likes . </span>
+                            <span class="spans">454 views</span>
+                        </div>
+                    </mat-card-actions>
+                    <div class="badge2">
+                        <button class="badge">0d: 5h: 30m: 25s</button>
+                        <span class="smallText2">
+                            30 bids
+                        </span>
+                    </div>
+                    <mat-card-header>
+                        <div class="badge3">
+                            <mat-card-title class="heading">Product Name</mat-card-title>
+                            <mat-card-subtitle class="subheading">Current Bid</mat-card-subtitle>
+                            <mat-card-subtitle class="currentBid">$ 875.00</mat-card-subtitle>
+                        </div>
+                    </mat-card-header>
+                    <mat-card-footer>
+                        <!-- <button class="hammerbtn"></button> -->
+                        <button class="last">
+                            <span class="hammer">
+                                <i class="fa-solid fa-hammer"></i>
+                            </span>
+                            Raise Bid
+                        </button>
+                    </mat-card-footer>
+                </mat-card>
+            </div> 
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+
+        <div class="cards">
+            <h2 class="heading2">Upcoming Listing</h2>
+        <mat-grid-list cols="4" class="cardlist" rowHeight="300px">
+            <mat-grid-tile *ngFor="let card of card2">
+                <div class="cards2">
+
+                
+                <mat-card>
+                    <img mat-card-image src="../../../assets/Rectangle 22217.png" alt="Photo of a Shiba Inu">
+                    <mat-card-actions class="badge2">
+                        <div class="btnDiv">
+                            <button class="btns"><i class="fa-regular fa-heart icon"></i></button>
+                            <button class="btns"><i class="fa-regular fa-share-from-square icon"></i></button>
+                        </div>
+                        <div class="smallText">
+                            <!-- <p>45likes . 454views </p>   -->
+                            <span class="spans">45likes . </span>
+                            <span class="spans">454 views</span>
+                        </div>
+
+                    </mat-card-actions>
+                    <div class="badge2">
+                        <button class="badge">0d: 5h: 30m: 25s</button>
+                        <span class="smallText2">
+                            30 bids
+                        </span>
+                    </div>
+                    <mat-card-header>
+                        <div class="badge3">
+                            <mat-card-title class="heading">Product Name</mat-card-title>
+                            <mat-card-subtitle class="subheading">Current Bid</mat-card-subtitle>
+                            <mat-card-subtitle class="currentBid">$ 875.00</mat-card-subtitle>
+                        </div>
+                    </mat-card-header>
+                    <mat-card-footer>
+                        <!-- <button class="hammerbtn"></button> -->
+                        <button class="last">
+                            <i class="fa-solid fa-hammer"></i> Raise Bid
+                        </button>
+                    </mat-card-footer>
+                   
+                </mat-card>
+            </div>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+    
+</div>
