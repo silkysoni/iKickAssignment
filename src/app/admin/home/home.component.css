@@ -1,35 +1,4 @@
-/* .col {
-    height: 100% !important;
-}
 
-.container {
-    display: flex;
-    align-items: normal;
-}
-.body{
-    overflow-y: auto;
-    max-height: 100%; 
-  
-    padding: 0 !important;
-}
-
-
-.mat-grid-list {
-    overflow-y: hidden; 
-  }
-  
- 
-.column-content {
-    overflow-y: auto; 
-    height: 100%;
-
-  } */
-  /* th{
-    height: 1px;
-  }
-  ::ng-deep .mat-header-cell {
-    height: 0; 
-  } */
 .searchbox {
     width: 700px;
     height: 70px;
@@ -37,7 +6,6 @@
     padding-top: 0%;
 }
 #searchBar {
-    /* width: 750px !important; */
     width: 700px;
     height: 48px;
     border-radius: 14px;
@@ -67,8 +35,8 @@
     justify-content:space-between;
 }
 ::ng-deep .matColumnDef {
-    min-width: 100px; /* Adjust the minimum width as needed */
-    max-width: 300px; /* Adjust the maximum width as needed */
+    min-width: 100px; 
+    max-width: 300px;
   }
   .para{
     color: var(--N200, #9CA1A7);
@@ -77,10 +45,7 @@ font-size: 12px;
 font-style: normal;
 font-weight: 400;
   }
-  /* ::ng-deep .mat-cell {
-    vertical-align: top !important; 
-  } */
- 
+
   .mat-mdc-cell {
     vertical-align: top !important;
   } 
@@ -89,7 +54,6 @@ font-weight: 400;
     height: 5px !important;
   }
   .mob{
-    /* visibility: visible; */
     display: none;
 }
   @media (max-width: 390px) {
@@ -100,9 +64,3 @@ font-weight: 400;
             display: block;
         }
   }
-  /* @media (max-width: 400px){
-    .container{
-        display: none;
-    }
-
-} */

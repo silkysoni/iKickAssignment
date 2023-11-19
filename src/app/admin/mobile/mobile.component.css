@@ -1,201 +1,214 @@
-.heading{
-    /* font-family: Source Sans Pro; */
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
+.heading {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
 }
-.heading2{
+
+.heading2 {
     color: #000;
-font-family: Roboto;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
 }
-.main{
+
+.main {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.icons{
+
+.icons {
     padding: 5px;
     width: 24px;
-height: 24px;
+    height: 24px;
 }
-.searchBar{
+
+.searchBar {
     width: 342px;
-height: 48px;
-border-radius: 14px;
-background: #FFF;
-box-shadow: 0px 10px 20px 0px rgba(89, 97, 249, 0.10);
-outline: none;
-border: none;
-padding: 0 5px;
+    height: 48px;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(89, 97, 249, 0.10);
+    outline: none;
+    border: none;
+    padding: 0 5px;
 }
-.div3{
+
+.div3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
 }
-.seeAll{
+
+.seeAll {
     color: var(--N200, #9CA1A7);
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-}
-.topIcons{
-    width: 24px;
-height: 24px;
-}
-.text{
-color: #000;
-
-font-family: Nunito;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-/* margin: -10px; */
-
-}
-
-.imgs{
-padding: 1px;
-/* border: 1px solid black; */
-padding: 8px;
-border-radius:50% ;
-background: var(--B50, #F0EDFF);
-}
-
-.img2{
-    color: #000;
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-/* padding-right: 10px; */
-
-}
-.div4{
-    display: flex;
-align-items: center;
-justify-content:space-between ;
-}
-mat-card-image{
-    width: 163px;
-height: 113px;
-}
-.badge{
-    color: var(--B300, #664DFF);
-font-family: Roboto;
-font-size: 10px;
-font-style: normal;
-font-weight: 400;
-border: none;
-border-radius: 4px;
-background: var(--B50, #F0EDFF);
-}
-.btns{
-    border: none;
-    background-color: #fff;
-    color: #000;
-}
-.badge2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 7px 0 13px;
-}
-.headings{
-    color: #000;
-
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-}
-.subheading{
-    color: var(--N300, #9B9EA5);
-font-family: Roboto;
-font-size: 10px;
-font-style: normal;
-font-weight: 400;
-}
-.smallText2{
-    color: #000;
-
-font-family: Roboto;
-font-size: 10px;
-font-style: normal;
-font-weight: 400;
-}
-.currentBid{color: var(--N500, #5F6065);
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
 }
-.last{
 
-width: 153px;
-height: 32px;
-border-radius: 8px;
-background: var(--S75, #9B9EA5);
-display: flex;
-justify-content:space-evenly;
-align-items: center;
-color:#FFF;
-border: none;
-margin-bottom: 4px ;
-
-
+.topIcons {
+    width: 24px;
+    height: 24px;
 }
-.last2{
-    
-width: 153px;
-height: 32px;
-border-radius: 8px;
-background: var(--B300, #664DFF);
-display: flex;
-justify-content:space-evenly;
-align-items: center;
-color:#FFF;
-border: none;
-margin-bottom: 4px ;
+
+.text {
+    color: #000;
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
 }
-.hammer{
-    border-radius: 5px ;
+
+.imgs {
+    padding: 1px;
+    padding: 8px;
+    border-radius: 50%;
+    background: var(--B50, #F0EDFF);
+}
+
+.img2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.div4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+mat-card-image {
+    width: 163px;
+    height: 113px;
+}
+
+.badge {
+    color: var(--B300, #664DFF);
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    border-radius: 4px;
+    background: var(--B50, #F0EDFF);
+}
+
+.btns {
+    border: none;
+    background-color: #fff;
+    color: #000;
+}
+
+.badge2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7px 0 13px;
+}
+
+.headings {
+    color: #000;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.subheading {
+    color: var(--N300, #9B9EA5);
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.smallText2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.currentBid {
+    color: var(--N500, #5F6065);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.last {
+    width: 153px;
+    height: 32px;
+    border-radius: 8px;
+    background: var(--S75, #9B9EA5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFF;
+    border: none;
+    margin-bottom: 4px;
+}
+
+.last2 {
+
+    width: 153px;
+    height: 32px;
+    border-radius: 8px;
+    background: var(--B300, #664DFF);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFF;
+    border: none;
+    margin-bottom: 4px;
+}
+
+.hammer {
+    border-radius: 5px;
     padding: 3px;
     background: #bec1c4;
 }
-.badge3{
+
+.badge3 {
     padding: 0 0 5px 0;
 }
-mat-card-footer{
+
+mat-card-footer {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-mat-list-item{
+
+mat-list-item {
     color: #000;
 }
-.lasticons{
+
+.lasticons {
     width: 24px;
-height: 24px;
-margin-bottom: 0;
+    height: 24px;
+    margin-bottom: 0;
 }
-.lists{
+
+.lists {
     display: flex;
     justify-content: space-evenly;
-    /* position: sticky;
-    top: 0;
-    z-index: 100; */
 }
-li{
+
+li {
     color: #000;
 
-font-family: Inter;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
 }
